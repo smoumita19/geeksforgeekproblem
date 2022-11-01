@@ -3,52 +3,57 @@ class SortAnArrayOf0s1s2s {
         sortArray();
     }
 
-    public static void sortArray() {
-        int[] arr = {0,0,2,2,2,1,0,1,1};
-        int[] arr0 = new int[arr.length];
-        int[] arr1 = new int[arr.length];
-        int[] arr2 = new int[arr.length];
-        int[] arrAll = new int[arr.length];
+    public static void sort012(int a[], int n)
+    {
+        // code here 
+        int countZero = 0;
+        int countOne = 0;
+        int countTwo = 0;
+        int size =0;
+        for(int i=0; i<n; i++) {
+            if(a[i] == 0) {
 
-        for(int i=0; i< arr.length ; i++) {
-            if(arr[i] == 0) {
-                arr0[i] = arr[i];
+                countZero++;
             }
         }
 
-        for(int i=0; i< arr.length ; i++) {
-            if(arr[i] == 1) {
-                arr1[i] = arr[i];
+
+        for(int i=0; i<n; i++) {
+            if(a[i] == 1) {
+                countOne++;
             }
         }
 
-        for(int i=0; i< arr.length ; i++) {
-            if(arr[i] == 2) {
-                arr2[i] = arr[i];
+
+
+        for(int i=0; i<n; i++) {
+            if(a[i] == 2) {
+                countTwo++;
             }
         }
 
-        for(int i=0; i< arr0.length; i ++) {
-            if(i <  arr0.length) {
-                arrAll[i] = arr0[i];
-            }
+        
+
+        for(int i=0; i< countZero; i++){
+            a[size] =0;
+            size++;
         }
 
-        for(int i=0; i< arr1.length; i ++) {
-            if(i <  arr1.length) {
-                arrAll[i] = arr1[i];
-            }
+        for(int i=0; i< countOne; i++){
+            a[size] =1;
+            size++;
         }
 
-        for(int i=0; i< arr2.length; i ++) {
-            if(i <  arr2.length) {
-                arrAll[i] = arr2[i];
-            }
+        for(int i=0; i< countTwo; i++){
+            a[size] =2;
+            size++;
         }
 
-        for(int i=0; i< arr2.length;i++){
-            System.out.println(arrAll[i]);
+      
+        for(int i=0; i<n; i++) {
+            System.out.print(a[i]);
         }
-
+        
+     
     }
 }
