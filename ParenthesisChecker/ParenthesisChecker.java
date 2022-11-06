@@ -19,7 +19,7 @@ class Solution
         
         for(int i=0; i < x.length(); i++) {
 
-            if(dict.containsKey(x.charAt(i))){
+            if(dict.containsKey(x.charAt(i)) && stack.size() > 0){
                 Character charac = stack.peek();
                 //System.out.println(charac);
                 if(charac == dict.get(x.charAt(i))) {
@@ -28,8 +28,6 @@ class Solution
                         //System.out.println("Poping " + charac);
 
                     }
-                } else {
-                    return false;
                 }
 
             } else {
