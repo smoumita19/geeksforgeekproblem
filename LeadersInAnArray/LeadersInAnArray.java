@@ -6,22 +6,41 @@ class LeadersInAnArray {
         int[] arr = {16,17,4,3,5,2};
         ArrayList<Integer> resArr = new ArrayList<Integer>();
         int res = -1;
-
+        int j = 0;
         for(int i=0; i< arr.length; i++) {
-            for(int j=i+1; j<arr.length; j++) {
-                if (arr[i] > arr[j] && (j == arr.length-1)) {
+            j = i+1;
+            while(j<arr.length){
+
+
+
+                if(arr[i] > arr[j]) {
                     res = arr[i];
-                    System.out.println(res);
+                    j++;
+
+
+                }
+                else {
+                    break;
                 }
 
-                if ((j == arr.length-1) && res > -1) {
-                    resArr.add(arr[i]);
+                if(j == arr.length-1) {
+                    System.out.println(res);
+                    resArr.add(res);
                 }
+
             }
+
+            if(i == (arr.length-1)){
+                resArr.add(arr[i]);
+            }
+
+
+
+
+
         }
 
         System.out.println(resArr);
-
 
     }
 
