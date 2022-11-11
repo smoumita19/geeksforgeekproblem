@@ -1,29 +1,37 @@
-public static void main(String[] args) {
-        int[] arr = {1,3,4,5,4,2,2};
-        int j =arr.length-1;
-        int sumFirst = 0;
-        int sumLast = 0;
+class EquilibriumPoint {
+    public static void main(String[] args) {
+        int[] arr = {1,2,1,5,1,1,2,0,0};
+        //int j =arr.length-1;
+
 
         if(arr.length == 1) {
-            return 1;
+            //return 1;
         }
 
         for(int i=0; i<arr.length;i++){
-            sumFirst += arr[i];
-            sumLast += arr[j];
-//            System.out.println(sumFirst);
-//            System.out.println(sumLast);
-//            System.out.println(i);
-
-            if(sumFirst == sumLast) {
-                System.out.println(i+2);
-                break;
-                return; i+2;
+            int pos = i+1;
+            int sumLeft = 0;
+            int sumRight = 0;
+            for(int j=0; j<pos;j++) {
+                sumLeft += arr[j];
             }
-            j--;
+            //System.out.println(sumLeft);
+
+
+            for(int z=pos+1;z<arr.length;z++) {
+                sumRight += arr[z];
+            }
+            //System.out.println(sumRight);
+            if(sumLeft == sumRight) {
+                System.out.println(pos+1);
+                break;
+                //return i+2;
+            }
+            //j--;
 
         }
 
-        return -1;
+        //return -1;
 
     }
+}
