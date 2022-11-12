@@ -4,30 +4,37 @@ class EquilibriumPoint {
         //int j =arr.length-1;
 
 
-        if(arr.length == 1) {
-            //return 1;
-        }
+         long sum=0;
 
-        for(int i=0; i<arr.length;i++){
-            int pos = i+1;
-            int sumLeft = 0;
-            int sumRight = 0;
-            for(int j=0; j<pos;j++) {
-                sumLeft += arr[j];
-            }
-            //System.out.println(sumLeft);
+       for(int i=0;i<n;i++) {
+
+            sum=sum+arr[i];
+
+       }
+
+       long left=0,right=sum-arr[0];
+
+       if(left==right) return 1;
+
+       for(int i=1;i<n;i++) {
+
+       left=left+arr[i-1];
+
+       right=right-arr[i];
+
+       if(left==right) {
+
+       return i+1;
+
+       }
 
 
-            for(int z=pos+1;z<arr.length;z++) {
-                sumRight += arr[z];
-            }
-            //System.out.println(sumRight);
-            if(sumLeft == sumRight) {
-                System.out.println(pos+1);
-                break;
-                //return i+2;
-            }
-            //j--;
+
+
+
+       }
+
+       return -1;
 
         }
 
