@@ -18,6 +18,7 @@ class BinaryTree {
 		
 		public BinaryTree() {
 		
+			root = null;
 		
 		}
 		
