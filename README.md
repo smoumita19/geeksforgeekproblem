@@ -12,4 +12,6 @@ Link: __[practice.geeksforgeeks.org](https://practice.geeksforgeeks.org/)__
 |:-|:---|:---|:-----|
 |1|Subarray with given numbers|[Link](https://github.com/smoumita19/geeksforgeekproblem/tree/master/SubArrayWithGivenSum)|__Complete__|
 |2|Missing Number In Array|[Link](https://github.com/smoumita19/geeksforgeekproblem/tree/master/MissingNumberInArray)|__Complete__|
+|3|Parenthesis Checker|[Link](https://github.com/smoumita19/geeksforgeekproblem/tree/master/ParenthesisChecker)|__Complete__|
+
 
