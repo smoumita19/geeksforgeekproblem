@@ -14,7 +14,10 @@ Link: __[practice.geeksforgeeks.org](https://practice.geeksforgeeks.org/)__
 |2|Missing Number In Array|[Link](https://github.com/smoumita19/geeksforgeekproblem/tree/master/MissingNumberInArray)|__Complete__|
 |3|CheckForBST|[Link](https://github.com/smoumita19/geeksforgeekproblem/tree/master/CheckForBST)|__Complete__|
 |4|Parenthesis Checker|[Link](https://github.com/smoumita19/geeksforgeekproblem/tree/master/ParenthesisChecker)|__Complete__|
-|5|Leaders In AnArray|[Link](https://github.com/smoumita19/geeksforgeekproblem/tree/master/LeadersInAnArray)|__Complete__|
+|5|Leaders In An Array|[Link](https://github.com/smoumita19/geeksforgeekproblem/tree/master/LeadersInAnArray)|__Complete__|
+|6|Equilibrium Point|[Link](https://github.com/smoumita19/geeksforgeekproblem/tree/master/EquilibriumPoint)|__Complete__|
+
+
 
 
 
