@@ -16,6 +16,8 @@ Link: __[practice.geeksforgeeks.org](https://practice.geeksforgeeks.org/)__
 |4|Parenthesis Checker|[Link](https://github.com/smoumita19/geeksforgeekproblem/tree/master/ParenthesisChecker)|__Complete__|
 |5|Leaders In An Array|[Link](https://github.com/smoumita19/geeksforgeekproblem/tree/master/LeadersInAnArray)|__Complete__|
 |6|Equilibrium Point|[Link](https://github.com/smoumita19/geeksforgeekproblem/tree/master/EquilibriumPoint)|__Complete__|
+|7|Find Duplicates In An Array|[Link](https://github.com/smoumita19/geeksforgeekproblem/tree/master/FindDuplicatesInAnArray)|__Complete__|
+
 
 
 
