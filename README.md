@@ -17,7 +17,7 @@ Link: __[practice.geeksforgeeks.org](https://practice.geeksforgeeks.org/)__
 |5|Leaders In An Array|[Link](https://github.com/smoumita19/geeksforgeekproblem/tree/master/LeadersInAnArray)|__Complete__|
 |6|Equilibrium Point|[Link](https://github.com/smoumita19/geeksforgeekproblem/tree/master/EquilibriumPoint)|__Complete__|
 |7|Find Duplicates In An Array|[Link](https://github.com/smoumita19/geeksforgeekproblem/tree/master/FindDuplicatesInAnArray)|__Complete__|
-|8|Missing Number In Array|[Link](https://github.com/smoumita19/geeksforgeekproblem/tree/master/MissingNumberInArray)|__Complete__|
+|8|Left View Of Binary Tree|[Link]((https://github.com/smoumita19/geeksforgeekproblem/tree/master/LeftViewOfBinaryTree)|__Complete__|
 
 
 
