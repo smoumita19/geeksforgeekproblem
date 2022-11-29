@@ -18,6 +18,8 @@ Link: __[practice.geeksforgeeks.org](https://practice.geeksforgeeks.org/)__
 |6|Equilibrium Point|[Link](https://github.com/smoumita19/geeksforgeekproblem/tree/master/EquilibriumPoint)|__Complete__|
 |7|Find Duplicates In An Array|[Link](https://github.com/smoumita19/geeksforgeekproblem/tree/master/FindDuplicatesInAnArray)|__Complete__|
 |8|Left View Of Binary Tree|[Link](https://github.com/smoumita19/geeksforgeekproblem/tree/master/LeftViewOfBinaryTree)|__Complete__|
+|8|Detect Loop In LinkedList|[Link](https://github.com/smoumita19/geeksforgeekproblem/tree/master/DetectLoopInLinkedList)|__Complete__|
+
 
 
 
