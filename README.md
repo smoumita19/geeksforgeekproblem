@@ -20,7 +20,7 @@ Link: __[practice.geeksforgeeks.org](https://practice.geeksforgeeks.org/)__
 |8|Left View Of Binary Tree|[Link](https://github.com/smoumita19/geeksforgeekproblem/tree/master/LeftViewOfBinaryTree)|__Incomplete__|
 |9|Detect Loop In Linked List|[Link](https://github.com/smoumita19/geeksforgeekproblem/tree/master/DetectLoopInLinkedList)|__Incomplete__|
 |10|Given a linked list consisting of L nodes and given a number N. The task is to find the Nth node from the end of the linked list.|[Link](https://github.com/smoumita19/geeksforgeekproblem/tree/master/DetectLoopInLinkedList)|__Incomplete__|
-|11|Peak element.|[Link](https://github.com/smoumita19/geeksforgeekproblem/tree/master/DetectLoopInLinkedList)|__Incomplete__|
+|11|Peak element.|[Link]()|__Incomplete__|
 
 
 
